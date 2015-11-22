@@ -1,0 +1,1135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <title>Hilfe zu SIM 8008 Version 2</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+  <style type="text/css"> 
+    body {background: white; font-family: 'Times New Roman'; font-size: 10pt; color: BLACK};
+    h1 {color: ff7f50; font-family: 'Courier New'; font-size: 18pt; font-weight: bold; font-style: italic; text-align: center}  
+    h2 {color: black; font-family: 'Times New Roman'; font-size: 10pt; text-decoration: underline}  
+    h3 {color: black; font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold;} 
+    h4 {color: red; font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold;} 
+    td {color: black; font-family: 'Times New Roman'; font-size: 10pt;} 
+    a:link {text-decoration:none; color:BLUE}
+    a:active {text-decoration:none; color:BLUE}
+    a:visited {text-decoration:none; color:BLUE}
+    a:hover {text-decoration:none; color:RED}
+    span {color: royalblue; font-family: 'Times New Roman'; font-size: 10pt; font-style: italic; font-weight: bold;}  
+  </style>
+  </head>
+  <body onload="javascript:window.status='Hilfe zu SIM 8008';return true;">
+    <h1><a name="#start">Hilfe zu SIM 8008 (Version  2.1)</a></h1>	
+    <h1><img src="./screenshots/main.jpg" alt="Programm" width="512" height="384"></h1>
+    <h4>Diese Hilfe ist noch nicht vollst&auml;ndig und wird noch erg&auml;nzt!</h4>
+    <ol>
+	<li><a href="#prog" onmouseover="javascript:window.status='Programmbeschreibung';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Programmbeschreibung</a></li>
+	<li><a href="#toolbar" onmouseover="javascript:window.status='Toolbar';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Toolbar</a><br>
+	<li>Men&uuml;erkl&auml;rung<br>
+		<ol>
+		<li><a href="#datei" onmouseover="javascript:window.status='Menüpunkt - Datei';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Datei</a></li>
+	 	<li><a href="#anzeige" onmouseover="javascript:window.status='Menüpunkt - Anzeige';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Anzeige</a></li>
+	 	<li><a href="#einstellungen" onmouseover="javascript:window.status='Menüpunkt - Einstellungen';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Einstellungen</a></li>
+	 	<li><a href="#projekt" onmouseover="javascript:window.status='Menüpunkt - Projekt';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Projekt</a></li>
+	 	<li><a href="#mstart" onmouseover="javascript:window.status='Menüpunkt - Start';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Start</a></li>
+	 	<li><a href="#tools" onmouseover="javascript:window.status='Menüpunkt - Tools';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Tools</a></li>
+		<li><a href="#hilfe" onmouseover="javascript:window.status='Menüpunkt - Hilfe';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Hilfe</a></li>
+		</ol>
+	</li>
+	<li>Fenster<br>
+		<ol>	
+		<li><a href="#weditor" onmouseover="javascript:window.status='Fenster - Editor';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Editor</a></li>
+		<li><a href="#wram" onmouseover="javascript:window.status='Fenster - RAM';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">RAM</a></li>
+		<li><a href="#wregister" onmouseover="javascript:window.status='Fenster - Register/Flags';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Register/Flags</a></li>
+		<li><a href="#wstack" onmouseover="javascript:window.status='Fenster - Stack';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Stack</a></li>
+		<li><a href="#wioports" onmouseover="javascript:window.status='Fenster - I/O Ports';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">I/O Ports</a></li>
+		<li><a href="#wwatch" onmouseover="javascript:window.status='Fenster - überwachte Ausdrücke';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">&uuml;berwachte Ausdr&uuml;cke</a></li>
+		<li><a href="#wdisasm" onmouseover="javascript:window.status='Fenster - Disassembler';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Disassembler</a></li>
+		</ol>
+      	</li> 	 
+	<li>Zusatz</li>
+		<ol>
+		<li><a href="#syntax" onmouseover="javascript:window.status='Syntax';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Syntax</a></li>
+		<li><a href="#asm" onmouseover="javascript:window.status='Assemblerbefehle';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Assemblerbefehle</a></li>
+		<li><a href="#number" onmouseover="javascript:window.status='Zahlenangaben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Zahlenangaben</a></li>
+		<li><a href="#instructions" onmouseover="javascript:window.status='Befehlssatz des i8008';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Befehlssatz des i8008</a></li>
+		</ol>
+      	</li>
+    </ol>
+    <hr>
+    <h2>Versionshistorie:</h2>
+    <p>
+    <table border="0">
+    <tr>
+        <td>Version 2.1 (06/23/2004)<br><br><br><br></td>	
+        <td><ul>
+            <li>der Editor nutzt die SynEdit Komponente (<a href="http://synedit.sourceforge.net">http://synedit.sourceforge.net</a>)</li>
+            <li>verbesserte Darstellung im Einzellschritt und Kontrolle der Breakpoints</li>
+            <li>das Zahlensystem "Dezimal (2er Komplement)" wurde hinzugef&uuml;gt</li>
+        </ul></td>  
+    </tr>
+    <tr>	
+        <td>Version 2.1.0.2 (06/22/2006)<br><br><br><br></td>	
+        <td><ul>
+            <li>Bugfix im Syntaxhighlighting, es wurde der (alte) Befehl RS statt des (neuen) Befehls RM hervorgehoben</li>
+            <li>Bugfix bei Multimonitorbetrieb</li>
+            <li>Bugfix der Hilfe, es wurde der (alte) Befehl RS statt des (neuen) Befehls RM dokumentiert</li>
+        </ul></td>  
+    </tr>		
+    </table>	
+    </p>
+    <hr>
+    <h2><a name="#prog">1. Programmbeschreibung</a></h2>
+    <p>
+	Um ein besseres Verst&auml;ndniss f&uuml;r den Prozessor i8008, welcher in der Vorlesung
+	"Maschinenorientierte Programmierung" als Beispielprozessor genutzt wird, zu bekommen, wurde dieses
+	Programm entwickelt.<br>
+	Mein Anliegen war, einen Simulator zu schreiben der in der Lage sein sollte
+	den Code als Quelltext entgegenzunehmen und selbst&auml;ndig in Bytecode zu &uuml;bersetzen. 
+	Damit ist es einfacher geworden indirekte Sprungmarken zu setzten, ohne ihre genaue Adresse zu wissen.
+	Der im RAM befindliche Code l&auml;sst sich als Routine oder als Einzelschritt ausf&uuml;hren.
+	Der Simulator besitzt ebenso einen direkten RAM, Flag und Register Zugriff.<br><br>
+	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+    </p>
+    <h2><a name="#toolbar">2. Toolbar</a></h2>		
+    <p>
+	<img src="./screenshots/toolbar.jpg" alt="Toolbar" width="351" height="40"><br><br>
+	Die h&auml;ufig genutzten Funktionen sind in dieser Toolbar f&uuml;r den Schnellzugriff angeordnet.<br><br>
+	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+    </p>
+    <h2><a name="#datei">3.1 Men&uuml;punkt: Datei</a></h2>
+	<ul>
+	<li><span>Neu</span><br>
+		<ul>
+		  <li><span>Projekt</span>
+			<p>Erstellt ein neues Projekt, dabei werden folgende Werte gespeichert:
+			<ul>
+			<li>Stack</li>
+			<li>RAM</li>
+			<li>Register</li>
+			<li>Flags</li>
+			<li>I/O Ports</li>
+			<li>Quelltext</li>				
+			</ul>
+			</p>
+		  </li>
+		  <li><span>Quelltext</span>
+			<p>Es wird ein neuer Quelltext erstellt.
+			</p>
+		  </li>
+		</ul>		
+		<p>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Speichern</span><br>
+		<p>Es wird die aktuelle Datei gespeichert, entweder das Projekt oder nur der Quelltext.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Quelltext &ouml;ffnen...</span><br>
+		<p>Es wird ein Dialog zur Auswahl eines Quelltextes ge&ouml;ffnet.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Quelltext speichern unter...</span><br>
+		<p>Es wird ein Dialog zur Eingabe der Quelltextdatei ge&ouml;ffnet.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Projekt &ouml;ffnen</span><br>
+		<p>Es wird ein Dialog zur Auswahl eines Projektes ge&ouml;ffnet.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Projekt speichern unter...</span><br>
+		<p>Es wird ein Dialog zur Eingabe der Projektdatei ge&ouml;ffnet.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Drucken...</span><br>
+		<p>Es wird ein Dialog zur Eingabe der Druckoptionen ge&ouml;ffnet.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Beenden</span><br>
+		<p>Das Programm wird beendet. Dies ist nur m&ouml;glich, wenn das Programm nicht im Ausf&uuml;hrungsmodus ist.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	</ul>
+    <h2><a name="#anzeige">3.2 Men&uuml;punkt: Anzeige</a></h2>
+	<ul>
+	<li><span>Editor</span><br>
+		<p>&Ouml;ffnet den <a href="#weditor" onmouseover="javascript:window.status='Editor';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Editor</a>.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>RAM</span><br>
+		<p>&Ouml;ffnet die <a href="#wram" onmouseover="javascript:window.status='RAM';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">RAM</a> Ansicht.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Register/Flags</span><br>
+		<p>&Ouml;ffnet die <a href="#wregister" onmouseover="javascript:window.status='Register/Flag';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Register/Flag</a> Ansicht.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Stack</span><br>
+		<p>&Ouml;ffnet die <a href="#wstack" onmouseover="javascript:window.status='Stack';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Stack</a> Ansicht.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Ports</span><br>
+		<ul>
+		  <li><span>In Ports</span>
+			<p>&Ouml;ffnet die <a href="#wioports" onmouseover="javascript:window.status='In Port';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">In Port</a> Ansicht.
+			</p>
+		  </li>
+		  <li><span>Out Ports</span>
+			<p>&Ouml;ffnet die <a href="#wioports" onmouseover="javascript:window.status='Out Port';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Out Port</a> Ansicht.
+			</p>
+		  </li>
+		</ul>
+		<p>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Debug</span><br>
+		<ul>
+		  <li><span>&uuml;berwachte Ausdr&uuml;cke</span>
+			<p>&Ouml;ffnet die Ansicht &uuml;ber die <a href="#wwatch" onmouseover="javascript:window.status='überwachten Ausdrücke';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">&uuml;berwachten Ausdr&uuml;cke</a>.
+			</p>
+		  </li>
+		  <li><span>Disassembler</span>
+			<p>&Ouml;ffnet die Ansicht des <a href="#wdisasm" onmouseover="javascript:window.status='Disassembler';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">Disassembler</a>.
+			</p>
+		  </li>
+		</ul>
+		<p>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	</ul>
+    <h2><a name="#einstellungen">3.3 Men&uuml;punkt: Einstellungen</a></h2>
+	<ul>
+	<li><span>Zahlensystem</span><br>
+		<ul>
+		  <li><span>Oktal</span>
+			<p>Das Anzeigeformat f&uuml;r Zahlen ist Oktal.</p>
+		  </li>
+		  <li><span>Dezimal</span>
+			<p>Das Anzeigeformat f&uuml;r Zahlen ist Dezimal.</p>
+		  </li>
+		  <li><span>Dezimal (2er Komplement)</span>
+			<p>Das Anzeigeformat f&uuml;r Zahlen ist im 2er Komplement f&uuml;r die RAM Anzeige und die Register A-E, alle anderen Anzeigen sind Dezimal.</p>
+		  </li>
+		  <li><span>Hexadezimal</span>
+			<p>Das Anzeigeformat f&uuml;r Zahlen ist Hexadezimal.</p>
+		  </li>
+		  <li><span>Bin&auml;r</span>
+			<p>Das Anzeigeformat f&uuml;r Zahlen ist Bin&auml;r.</p>
+		  </li>
+		</ul>
+		<p>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>High/Low getrennt</span><br>
+		<p>Die Ansicht der Zahlen (gr&ouml;&szlig;er 8 Bit) werden in High und Lowteil angezeigt.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Assemblerfortschritt</span><br>
+		<p>Der Assemblerfortschritt kann ein- oder ausgeblendet werde.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Registry nutzen</span><br>
+		<p>Wenn die Registry genutzt wird, werden die letzten Einstellungen beim Programmstart geladen.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	</ul>
+    <h2><a name="#projekt">3.4 Men&uuml;punkt: Projekt</a></h2>
+	<ul>
+	<li><span>Assemblieren</span><br>
+		<p>Der aktuelle Quelltext wird assembliert. Sollten Fehler auftreten, werden diese im Editor angezeigt.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Reset RAM</span><br>
+		<p>Der gesamte RAM Inhalt wird gel&ouml;scht.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Reset Stack</span><br>
+		<p>Der Stack wird zur&uuml;ckgesetzt.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Reset Register/Flags</span><br>
+		<p>Die Register und Flags werden zur&uuml;ckgesetzt.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Reset In Ports</span><br>
+		<p>Die In Port Inhalte werden gel&ouml;scht.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Reset Out Ports</span><br>
+		<p>Die Out Port Inhalte werden gel&ouml;scht.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>aus HLT zur&uuml;ckkehren</span><br>
+		<p>Nach einem HLT Befehl kann der Prozessor aus diesem Zustand zur&uuml;ckgesetzt.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>alles reseten</span><br>
+		<p>Alle Inhalte werden gel&ouml;scht bzw. zur&uuml;ckgesetzt.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	</ul>
+    <h2><a name="#mstart">3.5 Men&uuml;punkt: Start</a></h2>
+	<ul>
+	<li><span>Start</span><br>
+		<p>Die Ausf&uuml;hrung des Quelltextes wird gestartet. Ist ein Breakpoint erreicht, wird die Ausf&uuml;hrung gestoppt.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Einzelschritt</span><br>
+		<p>Die Anweisungen des Quelltextes werden Zeile für Zeile abgearbeitet.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Stop</span><br>
+		<p>Das Programm wird in den Editiermodus zur&uuml;ckgesetzt.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	</ul>
+    <h2><a name="#tools">3.6 Men&uuml;punkt: Tools</a></h2>
+	<ul>
+	<li><span>I/O Editor...</span><br>
+		<p>Der I/O Editor wird gestartet, hier k&ouml;nnen die Dateien f&uuml;r die I/O Ports erstellt bzw. gelesen werden.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	</ul>
+    <h2><a name="#hilfe">3.7 Men&uuml;punkt: Hilfe</a></h2>
+	<ul>
+	<li><span>Hilfe...</span><br>
+		<p>Zeigt diese Hilfe an.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Info...</span><br>
+		<p>Zeigt Lizenz- und Versionsinformationen an.<br><br>
+        	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	</ul>
+    <h2><a name="#weditor">4.1 Fenster: Editor</a></h2>
+	<p><img src="./screenshots/editor.jpg" alt="Editor" width="260" height="193" vspace="10" hspace="20"><br>
+	Im Editor wird der Quelltext eingegeben und bearbeitet. Sollten Fehler beim Assemblieren auftreten, so werden diese in einer Liste aufgef&uuml;hrt.
+	Die Auswahl eines Fehlers bewegt den Textcursor zu der fehlerhaften Zeile.<br>
+	Auf der Anzeige der Zeilennummer k&ouml;nnen die Breakpoints einer Zeile mit einem Mausklick ein- bzw. ausgeschaltet werden.<br><br>	
+	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+	</p>
+    <h2><a name="#wram">4.2 Fenster: RAM</a></h2>
+	<p>
+	<img src="./screenshots/ram.jpg" alt="RAM width="114" height="154" vspace="10" hspace="20"><br>
+	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+	</p>
+    <h2><a name="#wregister">4.3 Fenster: Register/Flags</a></h2>
+	<p>
+	<img src="./screenshots/register.jpg" alt="Register/Flags" width="101" height="189" vspace="10" hspace="20"><br>
+	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+	</p>
+    <h2><a name="#wstack">4.4 Fenster: Stack</a></h2>
+	<p>
+	<h4>Die Implementation des Programcounter (PC) weicht von dem originalen Model ab!</h4>
+	<img src="./screenshots/stack.jpg" alt="Stack" width="90" height="132" vspace="10" hspace="20"><br>
+	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+	</p>
+    <h2><a name="#wioports">4.5 Fenster: I/O Ports</a></h2>
+	<p>
+	<img src="./screenshots/portin.jpg" alt="I/O Ports" width="84" height="165" vspace="10" hspace="20">
+	<img src="./screenshots/portout.jpg" alt="I/O Ports" width="84" height="165" vspace="10" hspace="20"><br>
+	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+	</p>
+    <h2><a name="#wwatch">4.6 Fenster: &uuml;berwachte Ausdr&uuml;cke</a></h2>
+	<p>
+	<img src="./screenshots/watch.jpg" alt="überwachte Ausdrücke" width="126" height="133" vspace="10" hspace="20"><br>
+	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+	</p>
+    <h2><a name="#wdisasm">4.6 Fenster: Disassembler</a></h2>
+	<p>
+	<img src="./screenshots/disassembler.jpg" alt="Disassembler" width="101" height="105" vspace="10" hspace="20"><br>
+	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+	</p>
+    <h2><a name="syntax">5.1 Zusatz: Syntax</a></h2>
+	<ul>
+	<li>Es erfolgt keine Unterscheidung in Gro&szlig;- und Kleinschreibung bei den Befehlen.</li>
+	<li>In einer Zeile darf nur ein Befehl stehen.</li>
+	<li>Sprunkmarken sind wie folgt anzugeben: <br>
+	    <code>Marke: Befehl</code></li>
+	<li>Eine Sprungmarke darf nur Ziffern und Zeichen aus dem Alphabet besitzen, wobei das erste Zeichen keine Ziffer sein darf.</li>
+	<li>Kommentare werden mit vorangestelltem Semikolon gekennzeichnet und enden mit der Zeile.</li> 
+	</ul>
+	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+    <h2><a name="asm">5.2 Zusatz: Assemblerbefehle</a></h2>
+	<ul>
+	<li>Bezeichner <code>equ</code> Zahl<br>
+		weist einem Bezeichner die entsprechende Zahl zu<br>
+		Beispiel: <code>ZAHL equ 15</code></li>
+	<li><code>org</code> RAM Zeile<br>
+		organisiert beim Assemblieren den Maschinencode an die angegebene RAM Zeile<br>
+		Beispiel: <code>org hFF</code></li>
+	<li><code>end</code><br>
+		schlie&szlig;t den Quelltext ab, alle folgenden Zeichen werden ignoriert</li>
+	</ul>
+	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+    <h2><a name="number">5.3 Zusatz: Zahlenangaben</a></h2>
+	<ul>
+	<li>Dezimal: <code>.[0..9]+</code></li>
+	<li>Oktal: <code>(O|Q)[0..7]+</code></li>
+	<li>Hexadezimal: <code>H[0..9,A-F]+</code></li>
+	<li>Bin&auml;r: <code>B[0-1]+</code></li>
+	</ul>
+	<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+    <h2><a name="instructions">5.4 Zusatz: i8008 Befehlssatz</a></h2>
+	<p>
+	<ul>
+	<li><span>Kopierbefehle</span><br>
+		<p>
+			<h3>MOV r, s</h3>
+			<ul>
+				<li>kopiert den Inhalt von Register s in das Register r</li>
+				<li><code>Register[r]:= Register[s]</code></li>
+				<li>Kodierung (Oktal): 3 r s, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>MVI r, n</h3>
+			<ul>
+				<li>kopiert das Datum n in das Register r</li>
+				<li><code>Register[r]:= n</code></li>
+				<li>Kodierung (Oktal): 0 r 6,- n -, 2 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Inkrement/Dekrement</span><br>
+		<p>
+			<h3>INR r</h3>
+			<ul>
+				<li>erh&ouml;ht den Inhalt des Registers r um eins</li>
+				<li><code>A:= A + 1</code></li>
+				<li>Kodierung (Oktal): 0 r 0, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>DCR r</h3>
+			<ul>
+				<li>erniedrigt den Inhalt des Registers r um eins</li>
+				<li><code>A:= A - 1</code></li>
+				<li>Kodierung (Oktal): 0 r 1, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>arithmetische Befehle</span><br>
+		<p>
+			<h3>ADD r</h3>
+			<ul>
+				<li>addiert zu dem Akkumulator den Inhalt des Registers r</li>
+				<li><code>A:= A + Register[r]</code></li>
+				<li>Kodierung (Oktal): 2 0 r, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>ADC r</h3>
+			<ul>
+				<li>addiert zu dem Akkumulator den Inhalt des Registers r und den Inhalt vom Carry Flag</li>
+				<li><code>A:= A + Register[r] + CF</code></li>
+				<li>Kodierung (Oktal): 2 1 r, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>SUB r</h3>
+			<ul>
+				<li>subtrahiert vom Akkumulator den Inhalt des Registers r</li>
+				<li><code>A:= A - Register[r]</code></li>
+				<li>Kodierung (Oktal): 2 2 r, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>SBB r</h3>
+			<ul>
+				<li>subtrahiert vom Akkumulator den Inhalt des Registers r und den Inhalt vom Carry Flag</li>
+				<li><code>A:= A - Register[r] - CF</code></li>
+				<li>Kodierung (Oktal): 2 3 r, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>ADI n</h3>
+			<ul>
+				<li>addiert zu dem Akkumulator die Zahl n</li>
+				<li><code>A:= A + n</code></li>
+				<li>Kodierung (Oktal): 0 0 4, - n -, 2 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>ACI n</h3>
+			<ul>
+				<li>addiert zu dem Akkumulator die Zahl n und den Inhalt vom Carry Flag</li>
+				<li><code>A:= A + n + CF</code></li>
+				<li>Kodierung (Oktal): 0 1 4, - n -, 2 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>SUI n</h3>
+			<ul>
+				<li>subtrahiert vom Akkumulator die Zahl n</li>
+				<li><code>A:= A - n</code></li>
+				<li>Kodierung (Oktal): 0 2 4, - n -, 2 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>SBI n</h3>
+			<ul>
+				<li>subtrahiert vom Akkumulator die Zahl n und den Inhalt vom Carry Flag</li>
+				<li><code>A:= A - n - CF</code></li>
+				<li>Kodierung (Oktal): 0 3 4, - n -, 2 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>bitweise logische Befehle</span><br>
+		<p>
+			<h3>ANA r</h3>
+			<ul>
+				<li>bitweise und Verkn&uuml;pfung des Akkumulator und dem Inhalt des Registers r</li>
+				<li><code>A:= A and Register[r]</code></li>
+				<li>Kodierung (Oktal): 2 4 r, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td>0</td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>XRA r</h3>
+			<ul>
+				<li>bitweise exclusiv oder Verkn&uuml;pfung des Akkumulator und dem Inhalt des Registers r</li>
+				<li><code>A:= A xor Register[r]</code></li>
+				<li>Kodierung (Oktal): 2 5 r, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td>0</td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>ORA r</h3>
+			<ul>
+				<li>bitweises oder Verkn&uuml;pfung des Akkumulator und dem Inhalt des Registers r</li>
+				<li><code>A:= A or Register[r]</code></li>
+				<li>Kodierung (Oktal): 2 6 r, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td>0</td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>CMP r</h3>
+			<ul>
+				<li>subtrahiert vom Akkumulator den Inhalt des Registers r und setzt die Flags</li>
+				<li><code>A - Register[r]</code></li>
+				<li>Kodierung (Oktal): 2 7 r, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>ANI n</h3>
+			<ul>
+				<li>bitweise und Verkn&uuml;pfung des Akkumulator und der Zahl n</li>
+				<li><code>A:= A and n</code></li>
+				<li>Kodierung (Oktal): 0 4 4, - n -, 2 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td>0</td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>XRI n</h3>
+			<ul>
+				<li>bitweise exclusiv oder Verkn&uuml;pfung des Akkumulator und der Zahl n</li>
+				<li><code>A:= A xor n</code></li>
+				<li>Kodierung (Oktal): 0 5 4, - n -, 2 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td>0</td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>ORI r</h3>
+			<ul>
+				<li>bitweises oder Verkn&uuml;pfung des Akkumulator und der Zahl n</li>
+				<li><code>A:= A or n</code></li>
+				<li>Kodierung (Oktal): 0 6 4, - n -, 2 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td>0</td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>CPI n</h3>
+			<ul>
+				<li>subtrahiert vom Akkumulator die Zahl n und setzt die Flags</li>
+				<li><code>A - n</code></li>
+				<li>Kodierung (Oktal): 0 7 4, - n -, 2 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td>0</td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Sprungbefehle</span><br>
+		<p>
+			<h3>JMP nn</h3>
+			<ul>
+				<li>unbedingter Sprung auf Adresse nn</li>
+				<li>Kodierung (Oktal): 1 x 4, - n - , - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>JNC nn</h3>
+			<ul>
+				<li>bedingter Sprung, CF = 0, auf Adresse nn</li>
+				<li>Kodierung (Oktal): 1 0 0, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>JNZ nn</h3>
+			<ul>
+				<li>bedingter Sprung, ZF = 0, auf Adresse nn</li>
+				<li>Kodierung (Oktal): 1 1 0, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>JP nn</h3>
+			<ul>
+				<li>bedingter Sprung, SF = 0, auf Adresse nn</li>
+				<li>Kodierung (Oktal): 1 2 0, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>JPO nn</h3>
+			<ul>
+				<li>bedingter Sprung, PF = 0, auf Adresse nn</li>
+				<li>Kodierung (Oktal): 1 3 0, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>JC nn</h3>
+			<ul>
+				<li>bedingter Sprung, CF = 1, auf Adresse nn</li>
+				<li>Kodierung (Oktal): 1 4 0, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>JZ nn</h3>
+			<ul>
+				<li>bedingter Sprung, ZF = 1, auf Adresse nn</li>
+				<li>Kodierung (Oktal): 1 5 0, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>JM nn</h3>
+			<ul>
+				<li>bedingter Sprung, SF = 1, auf Adresse nn</li>
+				<li>Kodierung (Oktal): 1 6 0, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>JPE nn</h3>
+			<ul>
+				<li>bedingter Sprung, PF = 1, auf Adresse nn</li>
+				<li>Kodierung (Oktal): 1 7 0, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Aufruf- und R&uuml;ckkehrbefehle</span><br>
+		<p>
+			<h3>CALL nn</h3>
+			<ul>
+				<li>PC speichern in Stack, erh&ouml;hen des Stackpointer, PC auf Adresse nn</li>
+				<li>Kodierung (Oktal): 1 x 6, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>CNC nn</h3>
+			<ul>
+				<li>PC speichern in Stack, erh&ouml;hen des Stackpointer, PC auf Adresse nn, CF = 0</li>
+				<li>Kodierung (Oktal): 1 0 2,-n- , -n-, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>CNZ nn</h3>
+			<ul>
+				<li>PC speichern in Stack, erh&ouml;hen des Stackpointer, PC auf Adresse nn, ZF = 0</li>
+				<li>Kodierung (Oktal): 1 1 2, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>CP nn</h3>
+			<ul>
+				<li>PC speichern in Stack, erh&ouml;hen des Stackpointer, PC auf Adresse nn, SF = 0</li>
+				<li>Kodierung (Oktal): 1 2 2, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>CPO nn</h3>
+			<ul>
+				<li>PC speichern in Stack, erh&ouml;hen des Stackpointer, PC auf Adresse nn, PF = 0</li>
+				<li>Kodierung (Oktal): 1 3 2, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>CC nn</h3>
+			<ul>
+				<li>PC speichern in Stack, erh&ouml;hen des Stackpointer, PC auf Adresse nn, CF = 1</li>
+				<li>Kodierung (Oktal): 1 4 2, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>CZ nn</h3>
+			<ul>
+				<li>PC speichern in Stack, erh&ouml;hen des Stackpointer, PC auf Adresse nn, ZF = 1</li>
+				<li>Kodierung (Oktal): 1 5 2, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>CM nn</h3>
+			<ul>
+				<li>PC speichern in Stack, erh&ouml;hen des Stackpointer, PC auf Adresse nn, SF = 1</li>
+				<li>Kodierung (Oktal): 1 6 2, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>CPE nn</h3>
+			<ul>
+				<li>PC speichern in Stack, erh&ouml;hen des Stackpointer, PC auf Adresse nn, PF = 1</li>
+				<li>Kodierung (Oktal): 1 7 2, - n -, - n -, 3 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RST 0</h3>
+			<ul>
+				<li>entspricht CALL 0 (oktal)</li>
+				<li>Kodierung (Oktal): 0 0 5, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RST 10</h3>
+			<ul>
+				<li>entspricht CALL 10 (oktal)</li>
+				<li>Kodierung (Oktal): 0 1 5, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RST 20</h3>
+			<ul>
+				<li>entspricht CALL 20 (oktal)</li>
+				<li>Kodierung (Oktal): 0 2 5, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RST 30</h3>
+			<ul>
+				<li>entspricht CALL 30 (oktal)</li>
+				<li>Kodierung (Oktal): 0 3 5, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RST 40</h3>
+			<ul>
+				<li>entspricht CALL 40 (oktal)</li>
+				<li>Kodierung (Oktal): 0 4 5, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RST 50</h3>
+			<ul>
+				<li>entspricht CALL 50 (oktal)</li>
+				<li>Kodierung (Oktal): 0 5 5, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RST 60</h3>
+			<ul>
+				<li>entspricht CALL 60 (oktal)</li>
+				<li>Kodierung (Oktal): 0 6 5, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RST 70</h3>
+			<ul>
+				<li>entspricht CALL 70 (oktal)</li>
+				<li>Kodierung (Oktal): 0 7 5, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RET</h3>
+			<ul>
+				<li>Adresse aus Stack in PC kopieren (R&uuml;cksprung aus Unterprogramm), erniedrigen des Stackpointer</li>
+				<li>Kodierung (Oktal): 0 x 7, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RNC</h3>
+			<ul>
+				<li>Adresse aus Stack in PC kopieren (R&uuml;cksprung aus Unterprogramm), erniedrigen des Stackpointer, CF = 0</li>
+				<li>Kodierung (Oktal): 0 0 3, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RNZ</h3>
+			<ul>
+				<li>Adresse aus Stack in PC kopieren (R&uuml;cksprung aus Unterprogramm), erniedrigen des Stackpointer, ZF = 0</li>
+				<li>Kodierung (Oktal): 0 1 3, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RP</h3>
+			<ul>
+				<li>Adresse aus Stack in PC kopieren (R&uuml;cksprung aus Unterprogramm), erniedrigen des Stackpointer, SF = 0</li>
+				<li>Kodierung (Oktal): 0 2 3, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RPO</h3>
+			<ul>
+				<li>Adresse aus Stack in PC kopieren (R&uuml;cksprung aus Unterprogramm), erniedrigen des Stackpointer, PF = 0</li>
+				<li>Kodierung (Oktal): 0 3 3, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RC</h3>
+			<ul>
+				<li>Adresse aus Stack in PC kopieren (R&uuml;cksprung aus Unterprogramm), erniedrigen des Stackpointer, CF = 1</li>
+				<li>Kodierung (Oktal): 0 4 3, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RZ</h3>
+			<ul>
+				<li>Adresse aus Stack in PC kopieren (R&uuml;cksprung aus Unterprogramm), erniedrigen des Stackpointer, ZF = 1</li>
+				<li>Kodierung (Oktal): 0 5 3, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RM</h3>
+			<ul>
+				<li>Adresse aus Stack in PC kopieren (R&uuml;cksprung aus Unterprogramm), erniedrigen des Stackpointer, SF = 1</li>
+				<li>Kodierung (Oktal): 0 6 3, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RPE</h3>
+			<ul>
+				<li>Adresse aus Stack in PC kopieren (R&uuml;cksprung aus Unterprogramm), erniedrigen des Stackpointer, PF = 1</li>
+				<li>Kodierung (Oktal): 0 7 3, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Rotationsbefehle</span><br>
+		<p>
+			<h3>RLC</h3>
+			<ul>
+				<li>logische Rotation nach links, Bit 7 <img src="./arrowr.jpg" alt="Pfeil" width="10" heigth="9"> CF, Bit 7 <img src="./arrowr.jpg" alt="Pfeil" width="10" heigth="9"> Bit 0</li>
+				<li>Kodierung (Oktal): 0 0 2, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RRC</h3>
+			<ul>
+				<li>logische Rotation nach rechts, Bit 0 <img src="./arrowr.jpg" alt="Pfeil" width="10" heigth="9"> CF, Bit 0 <img src="./arrowr.jpg" alt="Pfeil" width="10" heigth="9"> Bit 7</li>
+				<li>Kodierung (Oktal): 0 1 2, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RAL</h3>
+			<ul>
+				<li>arithmetische Rotation nach links, Bit 7 <img src="./arrowr.jpg" alt="Pfeil" width="10" heigth="9"> CF <img src="./arrowr.jpg" alt="Pfeil" width="10" heigth="9"> Bit 0</li>
+				<li>Kodierung (Oktal): 0 2 2, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>RAR</h3>
+			<ul>
+				<li>arithmetische Rotation nach rechts, Bit 0 <img src="./arrowr.jpg" alt="Pfeil" width="10" heigth="9"> CF <img src="./arrowr.jpg" alt="Pfeil" width="10" heigth="9"> Bit 7</li>
+				<li>Kodierung (Oktal): 0 3 2, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td><img src="./arrow.jpg" alt="Pfeil" width="9" heigth="15"></td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	<li><span>Ein- und Ausgabebefehle</span><h4> sind nicht 1:1 umgesetzt!</h4>
+		<p>
+			<h3>IN &lt;X&gt;, X = 0..7</h3>
+			<ul>
+				<li>kopiert den Inhalt des Port &lt;X&gt; in das Register A</li>
+				<li><code>A:= Port[X]</code></li>
+				<li>Kodierung (Oktal): 1 x x, x x (oktal) = Port*2+1, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+			<h3>OUT &lt;X&gt;, X = 8..31</h3>
+			<ul>
+				<li>kopiert den Inhalt des Register A nach Port &lt;X&gt; </li>
+				<li><code>Port[X]:= A</code></li>
+				<li>Kodierung (Oktal): 1 x x, x x (oktal) = Port*2+1, 1 Byte Befehl</li>
+			</ul>
+			<br>
+			<table border="1">
+			<tr><td>CF</td><td>SF</td><td>ZF</td><td>PF</td></tr>
+			<tr><td> -</td><td> -</td><td> -</td><td> -</td></tr>
+			</table>
+			<a href="#start" onmouseover="javascript:window.status='nach oben';return true;" onmouseout="javascript:window.status='Hilfe zu SIM 8008';return true;">zur&uuml;ck zum Anfang</a>
+		</p>
+	</li>
+	</ul>
+	</p>
+   </body>
+</html>
