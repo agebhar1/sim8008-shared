@@ -173,7 +173,7 @@ const
 
 implementation
 
-{$R ..\Resource\ResourceStrings.res}
+{$R shared\resource\ResourceStrings.res}
 
 uses
   SysUtils;
